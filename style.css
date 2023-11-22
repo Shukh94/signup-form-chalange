@@ -1,0 +1,69 @@
+:root{
+    --primary-color : hsl(0, 100%, 74%) ;
+    --secondery-color : hsl(154, 59%, 51%);
+    --accent-color : hsl(248, 32%, 49%);
+    --nutral-color-one: hsl(249, 10%, 26%);
+    --nutral-color-two: hsl(246, 25%, 77%);
+    --text-color: hsl(0, 0%, 100%);
+    --box-shadow:  1px 5px 3px rgba(0, 0, 0, 0.3);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background: url(images/bg-intro-desktop.png);
+    background-color: var(--primary-color);
+    padding: 100px 90px;
+}
+
+.writeups{
+    width: 90%;
+}
+
+.writeups h1{
+    color: var(--text-color);
+}
+.writeups p{
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+.signup-fom {
+    width: 80%;
+}
+
+.signup-fom p {
+    background: var(--accent-color);
+    color: var(--text-color);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    text-align: center;
+}
+
+.form-group{
+    background: var(--text-color);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.form-group imput{
+    font-size: 16px;
+}
+
+.form-group button{
+    font-size: 16px;
+    background: var(--secondery-color);
+    border: none;
+    width: 100%;
+    transition: .3s linear;
+    text-transform: uppercase;
+}
+
+.form-group button:hover{
+    background: var(--primary-color);
+}
+
+
+
